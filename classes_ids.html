@@ -1,66 +1,83 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
-<title>Classes e IDs</title>
-
+    <title>Classes e IDs</title>
     <meta charset="utf-8">
+        <script src="https://kit.fontawesome.com/15ff63bebb.js" crossorigin="15ff63bebb"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+        <style type="text/CSS">
+        p {
+            color:rgb(255, 60, 0)
+        }
+        h1 {
+            color:blueviolet
+        }
+        .pink {
+            color: rgb(60, 8, 250);
+        }
+        .blue {
+            color:rgb(7, 7, 7)
+        }
+        .center {
+            text-align: center;
+        }
+        #principal {
+            background-color: bisque;
+            font-family: 'Open Sans', sans-serif;
+        }
+        #ultimoparagrafo{
+            background-color: aliceblue
+        }
+        #segundoparagrafo{
+            border-style: dotted;
+            color:aliceblue;
+            background-color: black;
+        }   
+        #terceiroparagrafo{
+            border-style: solid;
+        }
 
-<style type="text/CSS">
+        .material-icons.cordocartao{
+             color: black;
+        }
+        .material-icons.carinha{
+             color: rgba(236, 252, 7, 0.979);
+        }
+        .material-icons.coracao{
+             color: rgba(252, 7, 211, 0.3); 
+                     }
+        .material-icons.pata { 
+            color: black;
+        }
 
-    p {
-        color:rgb(255, 251, 0)
-    }
-
-    h1 {
-        color:blueviolet
-    }
-    .pink {
-        color: pink;
-
-    }
-
-    .blue {
-        color:rgb(7, 7, 7)
-    }
-
-    #principal {
-        background-color: black;
-        background-image: linear-gradient(red, rgb(7, 7, 7), rgb(252, 252, 252));
-
-    }
-
-    #ultimoparagrafo{
-        background-color: aliceblue;
-    }
-
-    #segundoparagrafo{
-        border-style: dotted;
-        color:aliceblue;
-    }
-
-    .center {
-        text-align: center;
-    }
-
-    #terceiroparagrafo{
-        border-style: solid;
-      
-
-    }
+        .fab.fa-github-square {
+            font-size: 200px;
+        }
     </style>
 
 </head>
 
 <body id="principal">
+  
+    <p class="pink">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+        <span class="material-icons cordocartao">credit_card</span> 
+    </p>
+    <p id="segundoparagrafo"> "At vero eos et accusamus et iusto odio dignissimos"
+        <span class="material-icons carinha">&#xE87C;</span>
+    </p>
+    <p class="blue" id="ultimoparagrafo">On the other hand, we denounce with righteous indignation.
+        <span class="material-icons coracao">favorite</span>
+    </p>
+    <p id="terceiroparagrafo" class="center">These cases are perfectly simple and easy to distinguish.
+        <span class="material-icons pata">pets</span>
+    </p>
+ 
+    <i class="fab fa-github-square"></i>
 
-   <p class="pink"> <p class="center"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></p>
-   <p id="segundoparagrafo"> "At vero eos et accusamus et iusto odio dignissimos"</p>
-   <p class="blue" id="ultimoparagrafo">On the other hand, we denounce with righteous indignation.</p>
-   <p id="terceiroparagrafo" class="center">These cases are perfectly simple and easy to distinguish. </p>
-   
-</body>
-
+   </body>
 </html>
